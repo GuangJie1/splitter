@@ -1,0 +1,13 @@
+package: setup
+
+deps:
+  - readline-common_copyright
+
+slices:
+  config:
+    contents:
+      /etc/inputrc:
+
+  copyright:
+    contents:
+      /usr/share/licenses/setup/COPYING:

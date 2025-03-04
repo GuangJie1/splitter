@@ -1,0 +1,11 @@
+package: zlib
+
+deps:
+  - zlib1g_copyright
+
+slices:
+  libs:
+    deps:
+      - libc6_libs
+    contents:
+      /usr/lib64/libz.so.*:

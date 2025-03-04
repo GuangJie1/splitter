@@ -1,0 +1,12 @@
+package: libstdc++
+
+deps:
+  - libstdc++6_copyright
+
+slices:
+  libs:
+    deps:
+      - libc6_libs
+      - libgcc-s1_libs
+    contents:
+      /usr/lib64/libstdc++.so.*:

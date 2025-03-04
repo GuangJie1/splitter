@@ -1,0 +1,6 @@
+package: glibc-nss-devel
+
+slices:
+  libs:
+    contents:
+      /usr/lib64/libnss_hesiod.so.*:

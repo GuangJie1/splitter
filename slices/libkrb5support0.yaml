@@ -1,0 +1,11 @@
+package: krb5-libs
+
+deps:
+  - libkrb5support0_copyright
+
+slices:
+  libs:
+    deps:
+      - libc6_libs
+    contents:
+      /usr/lib64/libkrb5support.so.*:
