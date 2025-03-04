@@ -1,0 +1,16 @@
+package: expat
+
+deps:
+  - libexpat1_copyright
+
+slices:
+  libs:
+    deps:
+      - libc6_libs
+    contents:
+      /usr/lib64/libexpat.so.1*:
+#      /usr/lib64/libexpatw.so.1*: (无)
+
+  copyright:
+    contents:
+      /usr/share/licenses/expat/COPYING:

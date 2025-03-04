@@ -1,0 +1,12 @@
+package: ncurses-libs
+
+deps:
+  - libtinfo6_copyright
+
+slices:
+  libs:
+    deps:
+      - libc6_libs
+    contents:
+      /lib/*-linux-*/libtinfo.so.6*:
+      /usr/lib/*-linux-*/libtic.so.6*:

@@ -1,0 +1,20 @@
+package: libtirpc
+
+deps:
+  - libtirpc3_copyright
+
+slices:
+  libs:
+    deps:
+      - libc6_libs
+      - libgssapi-krb5-2_libs
+      - libtirpc3_config
+    contents:
+      /lib64/libtirpc.so.3*:
+  config:
+    contents:
+      /etc/netconfig:
+
+  copyright:
+    contents:
+      /usr/share/licenses/libtirpc/COPYING:

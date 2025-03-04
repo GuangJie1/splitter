@@ -1,0 +1,15 @@
+package: bzip2
+
+deps:
+  - libbz2-1.0_copyright
+
+slices:
+  libs:
+    deps:
+      - libc6_libs
+    contents:
+      /usr/lib64/libbz2.so.1*:
+
+  copyright:
+    contents:
+      /usr/share/licenses/bzip2/LICENSE:
