@@ -1,4 +1,4 @@
-package: e2fsprogs
+package: e2fsprogs-[0-9]*.rpm
 
 deps:
   - libcom-err2_copyright

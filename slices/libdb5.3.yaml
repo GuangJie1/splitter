@@ -1,4 +1,4 @@
-package: libdb
+package: libdb-[0-9]*.rpm
 
 deps:
   - libdb5.3_copyright

@@ -1,4 +1,4 @@
-package: python3
+package: python3-[0-9]*.rpm
 
 deps:
   - python3.11_copyright

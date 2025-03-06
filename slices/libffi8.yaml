@@ -1,4 +1,4 @@
-package: libffi
+package: libffi-[0-9]*.rpm
 
 deps:
   - libffi8_copyright

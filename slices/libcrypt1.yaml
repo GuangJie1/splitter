@@ -1,4 +1,4 @@
-package: libxcrypt
+package: libxcrypt-[0-9]*.rpm
 
 deps:
   - libcrypt1_copyright

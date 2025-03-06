@@ -1,4 +1,4 @@
-package: python3
+package: python3-[0-9]*.rpm
 
 # The slices in this package have been grouped with inspiration from the
 # Python 3.11 Standard Library
@@ -416,6 +416,7 @@ slices:
       - libpython3.11-stdlib_core
       - libpython3.11-stdlib_frameworks
       - libtirpc3_libs
+      - libselinux1_libs
     contents:
       /usr/lib64/python3.11/crypt.py:
       /usr/lib64/python3.11/lib-dynload/_crypt.cpython-311-*-linux-*.so:

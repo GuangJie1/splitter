@@ -1,4 +1,4 @@
-package: ncurses-libs
+package: ncurses-libs-[0-9]*.rpm
 
 deps:
   - libtinfo6_copyright
@@ -8,5 +8,5 @@ slices:
     deps:
       - libc6_libs
     contents:
-      /lib/*-linux-*/libtinfo.so.6*:
-      /usr/lib/*-linux-*/libtic.so.6*:
+      /usr/lib64/libtinfo.so.6*:
+      /usr/lib64/libtic.so.6*:

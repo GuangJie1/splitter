@@ -1,4 +1,4 @@
-package: libnsl2
+package: libnsl2-[0-9]*.rpm
 
 deps:
   - libnsl2_copyright
@@ -9,7 +9,7 @@ slices:
       - libc6_libs
       - libtirpc3_libs
     contents:
-      /usr/lib64/libnsl.so.2*:
+      /usr/lib64/libnsl.so*:
 
   copyright:
     contents:

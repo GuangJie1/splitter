@@ -1,4 +1,4 @@
-package: readline
+package: readline-[0-9]*.rpm
 
 deps:
   - libreadline8_copyright

@@ -1,4 +1,4 @@
-package: glibc-nss-devel
+package: glibc-nss-devel-[0-9]*.rpm
 
 slices:
   libs:

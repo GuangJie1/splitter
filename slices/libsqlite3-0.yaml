@@ -1,4 +1,4 @@
-package: sqlite
+package: sqlite-[0-9]*.rpm
 
 slices:
   libs:

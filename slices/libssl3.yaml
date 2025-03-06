@@ -1,4 +1,4 @@
-package: openssl-libs
+package: openssl-libs-[0-9]*.rpm
 
 deps:
   - libssl3_copyright
@@ -12,7 +12,7 @@ slices:
       /usr/lib64/engines-3/loader_attic.so:
       /usr/lib64/engines-3/padlock.so:
       /usr/lib64/libcrypto.so.*:
-      /usr/lib64libssl.so.*:
+      /usr/lib64/libssl.so.*:
       /usr/lib64/ossl-modules/legacy.so:
 
   copyright:

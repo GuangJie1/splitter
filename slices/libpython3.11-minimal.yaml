@@ -1,4 +1,4 @@
-package: python3
+package: python3-[0-9]*.rpm
 
 # Most of the python3.11 standard libraries are split into
 # two major packages:
@@ -12,9 +12,9 @@ deps:
   - libpython3.11-minimal_copyright
 
 slices:
-  config:
-    contents:
-#      /etc/python3.11/sitecustomize.py: (无)
+#  config:
+#    contents:
+##      /etc/python3.11/sitecustomize.py: (无)
 
   libs:
     deps:

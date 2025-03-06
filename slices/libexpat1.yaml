@@ -1,4 +1,4 @@
-package: expat
+package: expat-[0-9]*.rpm
 
 deps:
   - libexpat1_copyright

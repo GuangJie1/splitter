@@ -1,0 +1,15 @@
+package: pcre2-[0-9]*.rpm
+
+deps:
+  - pcre2_copyright
+
+slices:
+  libs:
+    deps:
+      - libc6_libs
+    contents:
+      /usr/lib64/libpcre2-8.so*:
+
+  copyright:
+    contents:
+      /usr/share/doc/pcre2/LICENCE:
