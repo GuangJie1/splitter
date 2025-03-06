@@ -1,4 +1,4 @@
-package: libgcc
+package: libgcc-[0-9]*.rpm
 
 deps:
   - libgcc-s1_copyright

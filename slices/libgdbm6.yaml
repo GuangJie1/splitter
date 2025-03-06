@@ -1,0 +1,16 @@
+package: gdbm-[0-9]*.rpm
+
+deps:
+  - gdbm_copyright
+
+slices:
+  libs:
+    deps:
+      - libc6_libs
+    contents:
+      /usr/lib64/libgdbm.so*:
+      /usr/lib64/libgdbm_compat.so*:
+
+  copyright:
+    contents:
+      /usr/share/licenses/gdbm/COPYING:

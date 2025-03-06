@@ -1,4 +1,4 @@
-package: krb5-libs
+package: krb5-libs-[0-9]*.rpm
 
 deps:
   - libk5crypto3_copyright

@@ -1,4 +1,4 @@
-package: libstdc++
+package: libstdc++-[0-9]*.rpm
 
 deps:
   - libstdc++6_copyright

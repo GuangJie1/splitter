@@ -1,4 +1,4 @@
-package: libuuid
+package: libuuid-[0-9]*.rpm
 
 deps:
   - libuuid1_copyright

@@ -1,4 +1,4 @@
-package: bzip2
+package: bzip2-[0-9]*.rpm
 
 deps:
   - libbz2-1.0_copyright

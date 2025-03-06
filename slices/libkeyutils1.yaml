@@ -1,4 +1,4 @@
-package: keyutils-libs
+package: keyutils-libs-[0-9]*.rpm
 
 deps:
   - libkeyutils1_copyright

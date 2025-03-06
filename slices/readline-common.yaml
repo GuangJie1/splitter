@@ -1,4 +1,4 @@
-package: setup
+package: setup-[0-9]*.rpm
 
 deps:
   - readline-common_copyright

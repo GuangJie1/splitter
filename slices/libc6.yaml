@@ -1,4 +1,4 @@
-package: glibc
+package: glibc-[0-9]*.rpm
 
 deps:
   - libc6_copyright
@@ -8,7 +8,7 @@ deps:
 slices:
   config:
     contents:
-      /etc/ld.so.conf.d/*-linux-*.conf:
+      /etc/ld.so.conf*:
 
   libs:
     contents:
@@ -20,6 +20,7 @@ slices:
       /lib64/libdl.so.*:
       /lib64/libm.so.*:
       /usr/lib64/libmemusage.so:
+      /lib64/libmvec.so.*: {arch: amd64}
       /lib64/libnss_compat.so.*:
       /lib64/libnss_dns.so.*:
       /lib64/libnss_files.so.*:
@@ -29,9 +30,9 @@ slices:
       /lib64/librt.so.*:
       /lib64/libthread_db.so.*:
       /lib64/libutil.so.*:
-    extra:
-      linux/amd64:
-        /lib64/libmvec.so.*:
+#    extra:
+#      linux/amd64:
+#        /lib64/libmvec.so.*:
 
   copyright:
     contents:

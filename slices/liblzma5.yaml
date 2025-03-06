@@ -1,4 +1,4 @@
-package: xz-libs
+package: xz-libs-[0-9]*.rpm
 
 deps:
   - liblzma5_copyright

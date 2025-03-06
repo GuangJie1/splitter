@@ -1,4 +1,4 @@
-package: mailcap
+package: mailcap-[0-9]*.rpm
 
 essential:
   - media-types_copyright

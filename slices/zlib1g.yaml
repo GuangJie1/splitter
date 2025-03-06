@@ -1,4 +1,4 @@
-package: zlib
+package: zlib-[0-9]*.rpm
 
 deps:
   - zlib1g_copyright
